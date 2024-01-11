@@ -1,0 +1,171 @@
+#header
+{
+    background-color:  purple;
+}
+.anchor-header
+{
+color: black;
+font-size: 22px;
+font-family: Verdana;
+text-decoration: none;
+}
+.hometable 
+{
+    background-color: black;
+    border: 0px;
+}
+
+#hometableh3
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+    overflow: hidden;
+}
+#hometableh3 b
+{
+    font-size: 28px; 
+    margin-top: 20px; 
+    color:  plum;
+}
+/* tulisan yg d home */
+#hometableh3 b:hover
+{
+    opacity: 0.5;
+    text-shadow: 0px 0px  5px plum, 0 0 15px plum, 0 0 25px plum, 0 0 55px plum;
+}
+#abouttd1
+{
+color:  plum;
+font-size: 38px;
+font-family: Verdana;
+}
+#abouttd2
+{
+color: white;
+font-size: 18px;
+font-family: Verdana;
+}
+
+.skilltable
+{
+    background-color:black;
+    width: 100%;
+    border: 0px;
+    
+}
+.skilltabletd 
+{
+color: white;
+font-family: Verdana;
+}
+.tulisan
+{
+font-size: 34px;
+color: plum;
+}
+
+#skills hr 
+{
+    background-color: plum;
+}
+#img
+{
+    width: 200px;
+    height: 350px;
+    
+}
+.cvbutton
+{
+    text-decoration: none;
+}
+
+/* pilihan concact */
+#footer
+{
+    background-color: purple;
+    width: 100%;
+}
+#footer a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* font project */
+#projectstd
+{
+    color: plum;
+    font-size: 38px;
+    font-family: Verdana;
+}
+
+/* font concact */
+#contact td 
+{
+    font-size: 18px;
+    color: black;
+    font-family: Verdana;
+}
+
+/* animasi pilihan  */
+#headertable a:hover       
+{
+color: white;
+text-shadow: 0px 0px 5px black, 0 0 15px black, 0 0 25px black, 0 0 55px black,0 0 100px black;
+}
+
+button
+{
+    width: 100px;
+    height: 35px;
+    background-color: plum;
+    box-shadow: 0px 0px 5px white; 
+    border-radius: 40%;
+    border: none;
+
+    --enhanced-glow-color: black;
+
+    --btn-color: black;
+    border-radius: 1em;
+    font-size: 13px;
+    outline: none;
+}
+button:hover 
+{
+    box-shadow: 0px 0px 5px black;
+    
+}   
+
+/* mengatur tampilan bentuk project */
+.row
+{
+    width:330px;
+    height:300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* tampilan project */
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition:transform 0.5s;
+    height: 300px;
+    position: relative;
+}
+
+.row:hover img{
+    transform: scale(1.1);
+}
+.row:hover .layer
+{
+    height: 100%;
+}
+.img{
+    width:200px;
+    height: 100px;
+} 
